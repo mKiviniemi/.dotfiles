@@ -1,0 +1,11 @@
+" Enable clipboard sharing
+set clipboard=unnamedplus
+
+" Map keybindings for copying and pasting
+nnoremap <C-c> "+y
+vnoremap <C-c> "+y
+nnoremap <C-x> "+x
+vnoremap <C-x> "+x
+nnoremap <C-v> "+gP
+vnoremap <C-v> "+gP
+
