@@ -1,0 +1,21 @@
+# no welcome message
+startup_message off
+
+# Clear screen after closing programs
+altscreen on
+
+# Disable Visual Bell
+vbell off
+
+# New window in UTF-8
+defutf8 on 
+
+# UTF-8-aware mode on both directions
+utf8 on on 
+
+# always show a status bar with list of open windows and hostname
+hardstatus alwayslastline "%{= kW} %-w %{+b bW} %n %t %{= kW}%+w %-= %{= kb} %H%{kW}"
+
+# show window caption with title of active window when in split screen
+caption splitonly " %n %t %{= kW}"
+
